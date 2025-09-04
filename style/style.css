@@ -9,4 +9,7 @@ text-align: center;
 body {
 background-color: rgb(223, 214, 189);
 }
-
+p {
+     max-width: 60%; /* paragraph never gets wider than 60% of the screen */
+margin: 0 auto; /* centers it horizontally */
+}
