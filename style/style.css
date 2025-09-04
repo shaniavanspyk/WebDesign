@@ -1,12 +1,12 @@
 h1 {
 padding: 35px;
 text-align: center;
-background-color: snow;
+background-color: hsl(41, 88%, 37%);
 }
 h2 {
 text-align: center;
 } 
 body {
-background-color: mintcream;
+background-color: rgb(223, 214, 189);
 }
 

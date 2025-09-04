@@ -1,6 +1,6 @@
-#The Gorg
+#The Cruel Prince
 
-##Directed By:Scott Derrickson
+##By:Holly Black
 
 
-I love The Gorge most of all for its genre blend. Instead of playing it straight down the center, it combines sci-fi, romance, horror, and action into a story that is as fresh as it is unpredictable. The romance gives the film its heart, the horror its tension, and the action its breakneck speed. That combination makes the movie feel alive and constantly surprising, but the shifts always worked together. For me, the genre mix is what makes The Gorge stand out.
+I personally like the book The Cruel Prince because it doesn't romanticize Faerie, it's depicted as beautiful but deadly. That Jude refuses to back down in a world designed to kill her is the thing that makes the book inspiring, and how ambitious and flawed she is, I love. The push-and-pull between her and Cardan generates so much tension that the book becomes both merciless and irresistible. Holly Black's work makes the world come alive, with politics, betrayal, and magic all mixed together in a way that makes me hooked from start to finish.
