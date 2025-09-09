@@ -4,23 +4,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rectangle Stroke Box</title>
 </head>
+<style>
+    .rectangle { 
+        width: 60%;
+        height: 300px;
+        background-color: rgb(112, 80, 12);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+    .center {
+        font-size: 80px;
+    }
+</style>
 <body>
 <h1>The Cruel Prince</h1>
 <h2>By:Holly Black</h2>
-
- <canvas align-item= "center" id="myCanvas" width="700" height="100" style="border:1px solid #815f15;"></canvas>
-
-  <script>
-    // Get the canvas element and its context
-    const canvas = document.getElementById('myCanvas');
-    const ctx = canvas.getContext('2d');
-
-    // Set the stroke color
-    ctx.strokeStyle = 'blue';
-
-    // Draw a rectangle with a stroke
-    ctx.strokeRect(50, 50, 200, 100); // x, y, width, height
-  </script>
 
 
 <h3>Chapter 1</h3>
