@@ -12,14 +12,5 @@ background-color: rgb(223, 214, 189);
 p {
      max-width: 60%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
-}
-
-.rectagle {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     width: 300px;
-     height: 200px;
-     background-color: rgb(148, 108, 7);
+background-color: rgb(158, 115, 6);
 }
