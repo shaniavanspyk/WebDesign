@@ -15,5 +15,5 @@ margin: 0 auto; /* centers it horizontally */
 background-color: hsl(41, 89%, 44%);
 }
 img {
-align-items: center;
+image-orientation: center;
 }
