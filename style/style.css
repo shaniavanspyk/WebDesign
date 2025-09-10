@@ -3,7 +3,7 @@ padding: 35px;
 text-align: center;
 background-color: hsl(41, 88%, 37%);
 }
-h2,h3 {
+h2,h3,h4{
 text-align: center;
 } 
 body {
@@ -16,8 +16,4 @@ background-color: hsl(41, 89%, 44%);
 }
 img {
 image-orientation: center;
-}
-p2 {
-     max-width: 40%; /* paragraph never gets wider than 60% of the screen */
-margin: 0 auto; /* centers it horizontally */
 }
