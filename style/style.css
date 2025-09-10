@@ -12,7 +12,7 @@ background-color: rgb(223, 214, 189);
 p {
      max-width: 40%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
-background-color: hsl(41, 89%, 44%);
+
 }
 img {
 image-orientation: center;
