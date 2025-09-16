@@ -2,7 +2,7 @@
 body {
     background-color:rgb(223, 214, 189);
 }
-div {
+header {
     border: 1px solid black;
     padding: 25px;
     text-align: center;
@@ -12,9 +12,6 @@ div {
 h3,h4{
 text-align: center;
 } 
-h4{
-      -webkit-text-fill-color:rgb(223, 214, 189) ;
-}
 
 p {
      max-width: 40%; /* paragraph never gets wider than 60% of the screen */
