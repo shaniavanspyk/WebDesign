@@ -7,14 +7,16 @@ h2,h3,h4{
 text-align: center;
 } 
 body {
-background-color: rgb(223, 214, 189);
+    background-color:rgb(223, 214, 189);
 }
+
 div {
-border: 1px solid black;;
-padding: 35px;
-text-align: center;
-background-color: hsl(41, 88%, 37%);
+    border: 1px solid black;
+    padding: 35px;
+    text-align: center;
+    background-color:  hsl(41, 88%, 37%);
 }
+
 p {
      max-width: 40%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
