@@ -13,7 +13,7 @@ h3,h4{
 text-align: center;
 } 
 h4{
-      text-decoration-color:rgb(223, 214, 189) ;
+      -webkit-text-fill-color:rgb(223, 214, 189) ;
 }
 
 p {
