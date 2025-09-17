@@ -4,7 +4,7 @@ body {
 
 li {
   list-style-type: none;
-  color: rgb(7, 71, 16);
+  color: navy;
   display: inline-block;
   font-family: Georgia, serif;
 }
