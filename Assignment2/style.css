@@ -3,6 +3,7 @@ body {
 }
 
 li { 
+ list-style-image: url('book1.jpg');
   list-style-type: none;
   color: navy;
   display: inline-block;
