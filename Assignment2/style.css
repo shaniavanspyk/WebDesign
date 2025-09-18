@@ -3,6 +3,7 @@ body {
 }
 
 li {
+  list-style-image: ('TheCruelPrince.jpg');
   list-style-type: none;
   color: navy;
   display: inline-block;
