@@ -10,7 +10,7 @@ li {
 }
 
 header {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Courier New', Courier, monospace;
     border: 1px solid black;
     padding: 35px;
     text-align: center;
