@@ -3,8 +3,6 @@ body {
 }
 
 li { 
- border-image-width: 10%;
- list-style-image: url('book1.jpg');
   list-style-type: none;
   color: navy;
   display: inline-block;
@@ -27,8 +25,12 @@ p {
 margin: 0 auto; /* centers it horizontally */
 background-color: hsl(41, 89%, 44%);
 }
-img {
+
+.ImgMaine {
 image-orientation: center;
+}
+.Book {
+      image-orientation: start;
 }
 h3 {
       max-width: 50%; /* paragraph never gets wider than 60% of the screen */
