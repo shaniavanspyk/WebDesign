@@ -30,7 +30,7 @@ background-color: hsl(41, 89%, 44%);
 image-orientation: center;
 }
 .Book {
-      image-orientation: start;
+      image-orientation: 0deg;
 }
 h3 {
       max-width: 50%; /* paragraph never gets wider than 60% of the screen */
