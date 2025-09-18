@@ -2,8 +2,9 @@ body {
     background-color:rgb(223, 214, 189);
 }
 
-li {
-  list-style-image: url('TheCruelPrince.jpg'); 
+li { 
+  list-style-type: none;
+  list-style-image: url('TheCruelPrince.jpg');
   color: navy;
   display: inline-block;
   font-family: Georgia, serif;
