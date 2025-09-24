@@ -49,6 +49,12 @@ nav ul li {
 .content h1 {
     font-size: 70px;
     color: #222;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    top: 50%;
+    width: 100%;
+    text-align: left;
 }
 
 .content p {
