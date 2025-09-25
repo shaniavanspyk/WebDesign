@@ -54,7 +54,7 @@ nav ul li {
     margin: 0 auto;
     top: 50%;
     width: 100%;
-    text-align: left(50px);
+    left: 50px;
 }
 
 .content p {
