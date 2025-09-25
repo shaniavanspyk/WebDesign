@@ -115,3 +115,7 @@ h3 {
       margin: 20 auto;
 }
 
+hr {
+    stroke-width: 2px;
+    color: #d80707;
+}
