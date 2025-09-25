@@ -54,7 +54,7 @@ nav ul li {
     position: absolute;
     margin: 0 auto;
     top: 78%;
-    left: 136px;
+    left: 146px;
     background-image: linear-gradient(45deg, #916e23, #916e23)
 
 }
@@ -72,7 +72,7 @@ nav ul li {
     margin: 0 auto;
     top: 50%;
     width: 100%;
-    left: 140px;
+    left: 150px;
 }
 
 .content p {
@@ -83,12 +83,13 @@ nav ul li {
     margin: 0 auto;
     top: 67%;
     width: 100%;
-    left: 140px;
+    left: 150px;
     max-width: 22%
 }
 
 footer {
     position: absolute;
+    margin-top: auto;
     bottom: -400;
     background-color: #916e23;
     color: black;
