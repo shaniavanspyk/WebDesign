@@ -52,7 +52,7 @@ nav ul li {
     position: absolute;
     width: 90%;
     margin: 0 auto;
-    top: 65%;
+    top: 60%;
     width: 100%;
     left: 120px;
 }
@@ -60,4 +60,10 @@ nav ul li {
 .content p {
     margin: 10px 0 30px;
     color: #333;
+    position: absolute;
+    width: 20%;
+    margin: 0 auto;
+    top: 80%;
+    width: 100%;
+    left: 120px;
 }
