@@ -23,7 +23,7 @@ font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
 }
 
-.nav {
+nav {
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ font-family: 'Courier New', Courier, monospace;
     color: navy;
 }
 
-.nav ul li {
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 15px;
@@ -82,7 +82,7 @@ font-family: 'Courier New', Courier, monospace;
     max-width: 22%
 }
 
-.footer {
+footer {
     position: absolute;
     bottom: 0;
     background-color: #916e23;
