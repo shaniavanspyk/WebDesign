@@ -101,16 +101,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
 }
 
-.paragraph {
-    background-color: none;
-
-}
 
 p {
     justify-content: space-between;
      max-width: 40%; /* paragraph never gets wider than 60% of the screen */
 margin: 20 auto; /* centers it horizontally */
-background-color: hsl(41, 89%, 44%);
 }
 
 
