@@ -42,7 +42,7 @@ nav ul li {
     margin: 0 auto;
     top: 100%;
     right: 220px;
-    background-image: black
+    background-image: linear-gradient(45deg, #000000, #000000)
 
 }
 
