@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+
+body {
+    background-color: rgb(223, 214, 189);
 }
 
 
@@ -84,8 +89,9 @@ nav ul li {
 
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: -360;
     background-color: #916e23;
     color: black;
     width: 100%;
+    text-align: center;
 }
