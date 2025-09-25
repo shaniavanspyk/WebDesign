@@ -99,6 +99,7 @@ footer {
 h2,h3,h4{
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
+margin: 20px;
 }
 
 
@@ -115,7 +116,3 @@ h3 {
       margin: 20 auto;
 }
 
-hr {
-    stroke-width: 2px;
-    color: #d80707;
-}
