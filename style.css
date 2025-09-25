@@ -89,7 +89,7 @@ nav ul li {
 
 footer {
     position: absolute;
-    margin-top: auto;
+    margin-top: 20px;
     bottom: -400;
     background-color: #916e23;
     color: black;
