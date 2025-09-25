@@ -102,12 +102,14 @@ text-align: center;
 }
 
 p {
+    justify-content: space-between;
      max-width: 40%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
 background-color: hsl(41, 89%, 44%);
 }
 
 h3 {
+    justify-content: space-between;
       max-width: 50%; /* paragraph never gets wider than 60% of the screen */
       margin: 0 auto;
 }
