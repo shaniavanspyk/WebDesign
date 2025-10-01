@@ -21,7 +21,7 @@ font-family: 'Courier New', Courier, monospace;
 .hero {
     width: 100%;
     min-height: 100vh;
-    background-clip: url(FOREST\ \(2\).mp4);
+    background-image: linear-gradient(rgba(12,3,51,0,3,),rgba(12,3,51,0,3,));
     background-position: center;
     background-size: contain;
     padding: 10px 10%;
