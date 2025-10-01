@@ -65,12 +65,12 @@ nav ul li {
 }
 
 .content h1 {
-    font-size: 100px;
+    font-size: 120px;
     color: #fdf3f9;
     position: absolute;
     width: 90%;
     margin: 0 auto;
-    top: 80%;
+    top: 50%;
     width: 100%;
     left: 150px;
 }
