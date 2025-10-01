@@ -46,7 +46,8 @@ nav ul li {
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
-    color: #fff;
+    color:rgb(223, 214, 189);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
