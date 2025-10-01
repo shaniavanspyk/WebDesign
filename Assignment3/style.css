@@ -67,8 +67,7 @@ nav ul li {
 .content h1 {
     font-size: 120px;
     color: #556150;
-    stroke: black;
-    stroke-width: 10px;
+    stroke: 2px black;
     position: absolute;
     width: 80%;
     margin: 0 auto;
