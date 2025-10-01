@@ -53,7 +53,7 @@ nav ul li {
     list-style: none;
     position: absolute;
     margin: 0 auto;
-    top: 78%;
+    top: 108%;
     left: 146px;
     background-image: linear-gradient(45deg, #916e23, #916e23)
 
@@ -70,7 +70,7 @@ nav ul li {
     position: absolute;
     width: 90%;
     margin: 0 auto;
-    top: 70%;
+    top: 80%;
     width: 100%;
     left: 150px;
 }
@@ -81,7 +81,7 @@ nav ul li {
     position: absolute;
     width: 50%;
     margin: 0 auto;
-    top: 67%;
+    top: 97%;
     width: 100%;
     left: 150px;
     max-width: 22%
