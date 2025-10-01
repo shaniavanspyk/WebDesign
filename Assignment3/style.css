@@ -79,9 +79,10 @@ nav ul li {
 
 .content p {
     font-size: larger;
+    font-weight: 300;
     margin: 10px 0 30px;
-    color:rgb(223, 214, 189);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616); 
+   color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(255, 247, 205, 0.692);
     position: absolute;
     width: 60%;
     margin: 0 auto;
