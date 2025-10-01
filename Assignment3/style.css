@@ -48,13 +48,13 @@ nav ul li {
     padding: 14px 40px;
     color:rgb(0, 0, 0);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 30px;
     border-top-right-radius: 0;
     list-style: none;
     position: absolute;
     margin: 0 auto;
-    top: 88%;
+    top: 98%;
     left: 146px;
     background-image: linear-gradient(45deg, #916e23, #916e23)
 
