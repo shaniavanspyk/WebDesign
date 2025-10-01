@@ -125,6 +125,6 @@ h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    margin-top: 400;
+    top: 400;
     z-index: -10;
 }
