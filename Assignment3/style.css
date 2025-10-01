@@ -46,15 +46,15 @@ nav ul li {
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
-    color:rgb(223, 214, 189);
+    color:rgb(0, 0, 0);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
-    font-size: 14px;
+    font-size: 25px;
     border-radius: 30px;
     border-top-right-radius: 0;
     list-style: none;
     position: absolute;
     margin: 0 auto;
-    top: 108%;
+    top: 88%;
     left: 146px;
     background-image: linear-gradient(45deg, #916e23, #916e23)
 
@@ -68,7 +68,7 @@ nav ul li {
 .content h1 {
     font-size: 120px;
     color:rgb(223, 214, 189);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692); 
     position: absolute;
     width: 80%;
     margin: 0 auto;
@@ -81,7 +81,7 @@ nav ul li {
     font-size: larger;
     margin: 10px 0 30px;
     color:rgb(223, 214, 189);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616); 
     position: absolute;
     width: 60%;
     margin: 0 auto;
