@@ -67,8 +67,8 @@ nav ul li {
 
 .content h1 {
     font-size: 120px;
-    color:rgb(223, 214, 189);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    color:rgb(104, 122, 111);
+    text-shadow: 2px 2px 5px rgba(66, 51, 0, 0.5); 
     position: absolute;
     width: 80%;
     margin: 0 auto;
@@ -80,8 +80,8 @@ nav ul li {
 .content p {
     font-size: larger;
     margin: 10px 0 30px;
-    color:rgb(88, 104, 91);
-    text-shadow: 2px 2px 5px rgba(238, 238, 238, 0.5); 
+    color:rgb(223, 214, 189);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     position: absolute;
     width: 60%;
     margin: 0 auto;
