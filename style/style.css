@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: rgb(223, 214, 189);
+}
+
+
+header {
+font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    padding: 35px;
+    text-align: center;
+    background-color:   #916e23;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0,3,),rgba(12,3,51,0,3,));
+    background-position: center;
+    background-size: contain;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-size: 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    list-style: none;
+    position: absolute;
+    margin: 0 auto;
+    top: 102%;
+    left: 146px;
+    box-shadow: 2px 2px 5px rgba(255, 247, 205, 0.87);
+    background-image: linear-gradient(45deg, #916e23, #916e23)
+
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 120px;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(255, 247, 205, 0.87); 
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    width: 100%;
+    left: 150px;
+}
+
+.content p {
+    font-size: larger;
+    font-weight: 900;
+    margin: 10px 0 30px;
+   color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(255, 247, 205, 0.829);
+    position: absolute;
+    width: 60%;
+    margin: 0 auto;
+    top: 80%;
+    width: 100%;
+    left: 160px;
+    max-width: 22%
+}
+
+footer {
+    position: absolute;
+    margin-top: 20px;
+    bottom: -400;
+    background-color: #916e23;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+h2,h3,h4{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin: 20px;
+}
+
+
+p {
+    font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    justify-content: space-between;
+    max-width: 40%; /* paragraph never gets wider than 60% of the screen */
+    margin: 20 auto; /* centers it horizontally */
+}
+
+a {
+  color: rgba(255, 247, 205, 0.829); ;
+}
+
+h2{
+    font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+}
+h3 {
+    justify-content: space-between;
+      max-width: 50%; /* paragraph never gets wider than 60% of the screen */
+      margin: 20 auto;
+}
+
+.Holly {
+    image-orientation: center;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 220;
+    z-index: -1;
+}
+
+form {
+  background-color:#916e23;
+  padding: 15px; 
+  border-radius: 15px; 
+  border: 1px solid #000000; 
+  width: 75%; 
+ margin: auto;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+
+label {
+  display: block; 
+  margin-top: 15px; 
+  font-weight: bold;
+}
+
+
+
+input[type="text"]
+input[type="email"]
+input[type="radio"]
+input[type="checkbox"]
+
+
+input[type="text"],
+    input[type="email"],
+    select {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+button {
+  margin-top: 20px;
+  background-color: #5a3e36;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+   display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    background-image: linear-gradient(45deg, #2e3824, rgb(223, 214, 189));
+}
+
+button:hover {
+  background-color: #7a564f;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* spacing between images */
+  max-width: 800px; /* optional: keeps the grid from stretching too far */
+  margin: 0 auto;
+  row-gap: 10px; /* vertical spacing */
+  column-gap: 10px; /* horizontal spacing */
+}
+
+div img {
+  width: 30%; /* three images per row (3 x 30% + gaps) */
+  height: auto;
+}
+
+table {
+  width: 78%; /* makes the table a bit narrower than full-width */
+  margin: 0 auto; /* centers the table horizontally */
+  margin-bottom: 30px; /* adds space below the table */
+  background-color: #fdfdfd; /* soft background for readability */
+  border: 1px solid #ccc; /* light gray outer border */
+  border-radius: 4px; /* slightly rounded corners */
+}
+
+
+th, td {
+  padding: 12px; /* adds space inside each cell */
+  border: 1px solid #ccc; /* gives all cells a light border */
+  text-align: left; /* aligns content to the left for easier reading */
+}
+
+
+
+th {
+  background-color: #f5f5f5; /* light gray background for contrast */
+  font-weight: bold; /* makes header text stand out */
+  color: #5a3e36; /* a warm brown color for an elegant touch */
+}
+
+@media (max-width: 600px) {
+    body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+li {
+  display: block; /* Makes the list items stack vertically */
+  margin: 10px 0; /* Adds 10px space above and below the element, no space on the sides */
+}
+
+nav {
+  text-align: center;
+}
+
+header, .chapter, footer {
+  padding: 10px; /* Adds padding to header, .chapter, AND footer content */
+}
+
+
+}
