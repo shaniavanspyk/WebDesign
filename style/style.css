@@ -95,12 +95,12 @@ nav ul li {
 footer {
     position: absolute;
     margin-top: 20px;
-    bottom: -400;
+    bottom: auto;
     background-color: #916e23;
     color: black;
     width: 100%;
     text-align: center;
-    row-gap: 20px;
+    
 }
 
 h2,h3,h4{
@@ -125,7 +125,6 @@ a {
 }
 
 h2{
-    row-gap: 20px;
     font-family: "SUSE Mono", sans-serif;
     font-optical-sizing: auto;
     font-weight: 1px;
