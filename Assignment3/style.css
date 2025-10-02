@@ -144,10 +144,7 @@ form {
   border-radius: 15px; 
   border: 1px solid #000000; 
   width: 75%; 
-  gap: top 50;
-  margin-top: 200;
-  margin-left: auto;
-  margin-right: auto;
+ margin: auto;
 }
 
 fieldset {
@@ -210,4 +207,20 @@ button {
 
 button:hover {
   background-color: #7a564f;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* spacing between images */
+  max-width: 800px; /* optional: keeps the grid from stretching too far */
+  margin: 0 auto;
+  row-gap: 10px; /* vertical spacing */
+  column-gap: 10px; /* horizontal spacing */
+}
+
+div img {
+  width: 30%; /* three images per row (3 x 30% + gaps) */
+  height: auto;
 }
