@@ -119,6 +119,7 @@ p {
     margin: 20 auto; /* centers it horizontally */
 }
 
+
 h3 {
     justify-content: space-between;
       max-width: 50%; /* paragraph never gets wider than 60% of the screen */
