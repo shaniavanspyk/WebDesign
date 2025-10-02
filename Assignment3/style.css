@@ -13,7 +13,7 @@ body {
 header {
 font-family: 'Courier New', Courier, monospace;
     border: 1px solid black;
-    padding: 35px;
+    padding: 25px;
     text-align: center;
     background-color:   #916e23;
 }
@@ -132,4 +132,13 @@ h3 {
     bottom: 0;
     top: 220;
     z-index: -1;
+}
+
+form {
+  background-color:rgba(255, 247, 205, 0.829);
+  padding: 20px; 
+  border-radius: 10px; /* smooth, rounded corners */
+  border: 1px solid #ccc; /* light gray border */
+  width: 75%; /* controls how wide it is */
+  margin: 0 auto; /* centers the form on the page */
 }
