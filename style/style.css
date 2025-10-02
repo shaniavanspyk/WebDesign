@@ -125,6 +125,7 @@ a {
 }
 
 h2{
+    row-gap: 20px;
     font-family: "SUSE Mono", sans-serif;
     font-optical-sizing: auto;
     font-weight: 1px;
