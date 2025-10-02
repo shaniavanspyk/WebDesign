@@ -121,9 +121,7 @@ p {
 
 h2{
     font-family: "SUSE Mono", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 1px;
-    font-style: normal;
+    
 }
 h3 {
     justify-content: space-between;
