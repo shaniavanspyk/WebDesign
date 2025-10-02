@@ -278,5 +278,8 @@ header, .chapter, footer {
   padding: 10px; /* Adds padding to header, .chapter, AND footer content */
 }
 
+footer {
+  bottom:auto
+}
 
 }
