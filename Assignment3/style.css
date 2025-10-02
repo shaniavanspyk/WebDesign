@@ -144,6 +144,7 @@ form {
   border-radius: 15px; 
   border: 1px solid #000000; 
   width: 75%; 
+  gap: top 50;
   margin-top: 200;
   margin-left: auto;
   margin-right: auto;
