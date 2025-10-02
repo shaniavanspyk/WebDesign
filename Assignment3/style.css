@@ -111,12 +111,12 @@ margin: 20px;
 
 p {
     font-family: "SUSE Mono", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
     justify-content: space-between;
-     max-width: 40%; /* paragraph never gets wider than 60% of the screen */
-margin: 20 auto; /* centers it horizontally */
+    max-width: 40%; /* paragraph never gets wider than 60% of the screen */
+    margin: 20 auto; /* centers it horizontally */
 }
 
 
