@@ -33,7 +33,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: navy;
+    color: rgb(222, 241, 210);
 }
 
 nav ul li {
