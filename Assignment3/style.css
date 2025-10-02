@@ -198,7 +198,7 @@ button {
     padding: 14px 40px;
     color:rgb(0, 0, 0);
     font-size: 20px;
-    background-image: linear-gradient(45deg, #f1d9a5, #36240c)
+    background-image: linear-gradient(45deg, #687759, rgb(223, 214, 189);)
 }
 
 button:hover {
