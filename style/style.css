@@ -274,9 +274,11 @@ nav {
   text-align: center;
 }
 
-header, .chapter, footer, .btn, .content p, .content h1  {
+header, .chapter, .btn, .content p, .content h1  {
   padding: 10px; /* Adds padding to header, .chapter, AND footer content */
 }
+
+
 
 footer {
   bottom: -1000;
