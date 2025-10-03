@@ -247,8 +247,8 @@ table {
 
 th, td {
   padding: 12px; 
-  border: 1px solid #ccc; /
-  text-align: left; 
+  border: 1px solid #ccc; 
+  text-align: left;
 }
 
 
@@ -275,7 +275,7 @@ nav {
 }
 
 header, .chapter, .btn, .content p, .content h1  {
-  padding: 10px; /* Adds padding to header, .chapter, AND footer content */
+  padding: 10px; 
 }
 
 footer {
