@@ -278,6 +278,10 @@ header, .chapter, .btn, .content p, .content h1  {
   padding: 10px; /* Adds padding to header, .chapter, AND footer content */
 }
 
+.btn {
+  top: auto;
+}
+
 
 
 footer {
