@@ -279,7 +279,7 @@ header, .chapter, .btn, .content p, .content h1  {
 }
 
 .btn {
-  top: auto;
+  top: 20px;
 }
 
 
