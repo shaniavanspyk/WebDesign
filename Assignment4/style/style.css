@@ -1,8 +1,8 @@
 .blog-prview{
- display: flex; /* activates Flexbox */
-  flex-direction: row; /* aligns items in a row (default, but explicit is good) */
-  align-items: center; /* vertically centers items within the row */
-  gap: 20px; /* adds space between items */
+display: flex; /* activates Flexbox */
+flex-direction: row; /* aligns items in a row (default, but explicit is good) */
+align-items: center; /* vertically centers items within the row */
+gap: 20px; /* adds space between items */
 }
 
 .blog-preview img {
