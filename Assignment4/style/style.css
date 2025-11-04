@@ -5,6 +5,12 @@
   gap: 20px; /* adds space between items */
 }
 
+.blog-preview img {
+  width: 35%;      /* image takes up 45% of the total width of .blog-preview */
+  height: auto;    /* keeps proportions correct */
+  border-radius: 8px; /* optional, softens corners */
+}
+
 .blog-text {
   display: flex; /* another flexbox. We can nest them! */
   flex-direction: column; /* stacks each text element vertically */
