@@ -11,6 +11,14 @@
     margin: 10px 15px;
 }
 
+header {
+font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    padding: 26px;
+    text-align: center;
+    background-color:   #916e23;
+}
+
 .blog-prview {
 display: flex;
 flex-direction: row;
