@@ -1,3 +1,16 @@
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
 .blog-prview {
 display: flex;
 flex-direction: row;
@@ -57,11 +70,12 @@ gap: 20px;
   gap: 10px;
   margin: auto; 
   padding: 10px;
-  color: peru;
+  color: rgb(168, 87, 6);
+  background-color: rgb(83, 57, 47);
 }
 
 .item {
-  background-color: #fcf9ff;
+  background-color: #e4d2c1;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;
@@ -80,6 +94,17 @@ gap: 20px;
   height: auto; /* maintains the image's aspect ratio */
   display: block; /* clears any space after the image */
   border-radius: 8px; /* optional */
+}
+
+
+.footer {
+    position: absolute;
+    margin-top: 50px;
+    bottom: auto;
+    color: rgb(83, 57, 47);
+    width: 100%;
+    text-align: center;
+    
 }
 
 .title { 
