@@ -1,4 +1,4 @@
-.blog-prview{
+.blog-prview {
 display: flex; /* activates Flexbox */
 flex-direction: row; /* aligns items in a row (default, but explicit is good) */
 align-items: center; /* vertically centers items within the row */
