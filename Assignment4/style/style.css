@@ -1,8 +1,8 @@
 .blog-prview {
-display: flex; /* activates Flexbox */
-flex-direction: row; /* aligns items in a row (default, but explicit is good) */
-align-items: center; /* vertically centers items within the row */
-gap: 20px; /* adds space between items */
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
 
   max-width: 80%; /* controls total width of the content block */
   margin: 80px auto; /* centers content on the page with 80px of top/bottom space */
