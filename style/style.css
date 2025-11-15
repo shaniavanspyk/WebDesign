@@ -201,5 +201,10 @@ color: #999;
   color: #999;
 }
 
-.socials img{
+.social-icons img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
 }
+
