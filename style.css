@@ -135,6 +135,7 @@ gap: 20px;
   align-items: flex-start; /* Aligns all sections to the top of the footer */
   background-color:rgb(83, 57, 47); /* Sets the footer’s background color */
   padding: 30px 100px; /* Adds space inside the footer: 30px top/bottom, 100px left/right */
+  bottom: 0;
   font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire footer */
 }
 
