@@ -106,16 +106,6 @@ gap: 20px;
   background-color: rgb(83, 57, 47);
 }
 
-.blogdiscription {
-  max-width: 40%;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  
- 
-}
-
 .item {
   background-color: #e4d2c1;
   border-radius: 8px;
@@ -138,6 +128,12 @@ gap: 20px;
   border-radius: 8px; /* optional */
 }
 
+
+.title { 
+  text-align: center; 
+  font-size: 18px;
+  line-height: 1.6;
+}
 
 .footer {
   display: flex; /* Places all footer sections (icons + lists) side by side in a row */
@@ -165,12 +161,12 @@ gap: 20px;
   vertical-align: middle; /* Keeps icons visually aligned with any text nearby */
 }
 
-.footer-bottom {
-  bottom: auto;
+
+.footer-bottom{
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
 }
 
-.title { 
-  text-align: center; 
-  font-size: 18px;
-  line-height: 1.6;
-}
+
+
