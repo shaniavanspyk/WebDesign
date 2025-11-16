@@ -106,6 +106,16 @@ gap: 20px;
   background-color: rgb(83, 57, 47);
 }
 
+.blogdiscription {
+  max-width: 40%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+}
+
 .item {
   background-color: #e4d2c1;
   border-radius: 8px;
