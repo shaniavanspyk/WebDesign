@@ -1,7 +1,1 @@
 I like Flexbox and Grid because they both make layout design much easier and structured. Flexbox is great for controlling alignment and spacing in a single direction, while Grid gives me structure for more complex, two-dimensional layouts. Both will definitely streamline my workflow by reducing extra positioning and making my website more appealing. I think I like the flexbox more just because you can describe things more easily. I do think both are great depending on what you want your website to have. 
-
-<ul>
-    <li><a href="flexbox.html">Flexbox</a></li>
-    <li><a href="grid.html">Grid</a></li>
-    <li><a href="Blog.html">Blog</a></li>
-</ul>
