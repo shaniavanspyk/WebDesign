@@ -174,3 +174,11 @@ gap: 20px;
   font-size: 18px;
   line-height: 1.6;
 }
+
+@media (max-width: 600px) {
+  /* Styles for mobile screens */
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
