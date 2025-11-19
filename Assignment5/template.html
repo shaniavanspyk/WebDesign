@@ -23,7 +23,7 @@
     <main>
     <!-- Add this section. Your core content goes here -->
   </main>
-  
+
 </body>
 
    <footer class="footer">
@@ -54,10 +54,12 @@
     <li>Support</li>
     <li>Resources/li>
   </ul>
-  
-  <div class="footer-bottom">
-    <p>© 2025 Shania Van Spyk. All Rights Reserved.</p>
-</div>
+
+<p>&copy; <span id="year"></span> Shania Van Spyk</p>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </footer>
 
