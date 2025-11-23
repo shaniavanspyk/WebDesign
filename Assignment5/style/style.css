@@ -332,6 +332,11 @@ margin-top: 0px !important;
   display: block;
 }
 
+.carousel-item img {
+  max-height: 1800px;
+  object-fit: cover;
+  width: 100%;
+}
 
 @media (max-width: 600px) {
   /* Styles for mobile screens */
