@@ -1,38 +1,188 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flexbox Layout</title>
-    <link rel="stylesheet" href="style.css">
-   
-    <header>
-<nav class="navigation"> 
-<ul>
-    <li><a href="flexbox.html">Flexbox</a></li>
-    <li><a href="grid.html">Grid</a></li>
-    <li><a href="Blog.html">Blog</a></li>
-</ul>
-</nav>
-<h1>Grid</h1>
-</header>
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="grid.html">Grid</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flexbox.html">flexbox</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html">Blog</a>
+        </li> <!-- I added this entire list item to Bootstrap's default code. Add more if needed! -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="template.html">About</a></li>
+            <li><a class="dropdown-item" href="Readmore.html">Info</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+  </head>
+
 
 <body>
 
- <div class="gallery">
-      <div class="item"><p>Hello, autumn.</p></div>
-      <div class="item"><img src="images/fall1.jpg" alt="Cassette tape"></div>
-      <div class="item"><p>Fall is proof that change is beautiful.</p></div>
-      <div class="item"><img src="images/fall2.jpg" alt="Candles"></div>
-      <div class="item"><img src="images/fall3.jpg" alt="dried fruit"></div>
-      <div class="item"><p>Autumn skies & apple pies.</p></div>
-      <div class="item"><img src="images/fall4.jpg" alt="pumpkin room"></div>
-      <div class="item"><p>Crisp air. Cozy hearts.</p></div>
+<div class="page-wrapper">
+
+<div class="featured-section">
+
+  <!-- Blog List -->
+  <div class="blog-list">
+
+    <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+        <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
     </div>
 
+    <!-- You can copy/paste more blog-preview divs here if you want -->
+     <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+         <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+        <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+        <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+         <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-preview">
+      <img src="images/record player.jpg" alt="recordplayer.">
+      <div class="blog-text">
+        <p class="date">November 4, 2025</p>
+        <h2 class="post-title">Record</h2>
+        <p class="post-preview">
+          Photo I took in photography of a record player.
+        </p>
+        <a href="Readmore.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+  </div> <!-- end blog-list -->
+  
+  
+  <div class="right-column">
+  
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="images/record player.jpg" alt="RECORD.">
+  </div>
+
+  
+  
+  
+  <!-- Cards Section -->
+  <div class="card-section">
+
+    <div class="card1">
+      <img src="images/record player.jpg" alt="record.">
+      <h3>Records</h3>
+      
+    </div>
+
+    <div class="card1">
+       <img src="images/record player.jpg" alt="record.">
+      <h3>Records</h3>
+     
+    </div>
+
+  </div> <!-- end card-section -->
+
+  </div>
+
+</div> <!-- end featured-section -->
+
+
+<div class="gallery">
+      <div class="item"><p>Hello, autumn.</p></div>
+      <div class="item"><img src="images/fall1.jpg" alt="Cassette tape"></div>
+      <div class="item"><img src="images/fall2.jpg" alt="Candles"></div>
+      <div class="item"><p>Fall is proof that change is beautiful.</p></div>
+      <div class="item"><p>Crisp air. Cozy hearts.</p></div>
+      <div class="item"><img src="images/fall4.jpg" alt="pumpkin room"></div>
+</div>
+
+
+</div>
 </body>
+</html>
 
 <footer class="footer">
   <div class="social-icons">
@@ -63,9 +213,11 @@
     <li>Resources/li>
   </ul>
 
-    <div class="footer-bottom">
-    <p>© 2025 Shania Van Spyk. All Rights Reserved.</p>
-</div>
+ <p>&copy; <span id="year"></span> Shania Van Spyk</p>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </footer>
 
