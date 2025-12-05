@@ -77,6 +77,11 @@ h1 {
   gap: 20px;
   position: absolute;
   top: 8px;
+  transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.15);
 }
 
 header {
@@ -87,6 +92,60 @@ font-family: 'Courier New', Courier, monospace;
     align-items: center;
     background-color:   rgb(168, 87, 6);;
 }
+
+/* Popup is hidden at first */
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+
+  background-color: #e0e2e5;
+  padding: 10px;
+}
+
+/* Popup becomes visible */
+#popup.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+#openPopup {
+  animation: pulse 3s ease-in-out infinite;
+  margin-bottom: 40px;
+}
+
+main h3,
+#openPopup {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+button {
+  border-radius: 20px;    
+  background: rgba(174, 104, 66, 0.95);  
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 10px, 15px;
+  color: #d2cece;
+  display: block;
+  margin: 0 auto;
+}
+
 .blog-prview {
 display: flex;
 flex-direction: row;
