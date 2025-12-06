@@ -536,7 +536,7 @@ body {
 
 
 .parallax-banner {
-  height: 2000px;
+  height: 100px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* parallax */
