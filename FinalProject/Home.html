@@ -57,6 +57,14 @@
 
 
 <main>
+      <section class="parallax-banner-scroll" 
+            style="background-image: url('images/Potrait\ 1.jpg');">
+      <div class="parallax-banner-overlay">
+        <div class="parallax-banner-content">
+        </div>
+      </div>
+    </section>
+
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,7 +111,7 @@
       openPopup.onclick = () => popup.classList.add('open');
       closePopup.onclick = () => popup.classList.remove('open');
       </script>
-      
+
 <footer class="footer">
   <div class="social-icons">
      <img src="images/Home Icon.png" alt="Home">
@@ -140,6 +148,24 @@
 </script>
 
 </footer>
+
+  <script>
+    let latestScroll = 0;
+    window.addEventListener('scroll', () => {
+      latestScroll = window.scrollY;
+    });
+    function parallaxLoop() {
+      const banners = document.querySelectorAll('.parallax-banner-scroll');
+
+      banners.forEach(banner => {
+        let offset = latestScroll * 0.3;
+        banner.style.backgroundPositionY = `${offset}px`;
+      });
+      requestAnimationFrame(parallaxLoop);
+    }
+    parallaxLoop();
+    </script>
+
 
 
 </html>
