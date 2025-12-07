@@ -43,7 +43,7 @@ for (let i = 0; i < cirNum; i++){
   textFont('Arial');
   textSize(30);
   textAlign(CENTER,CENTER);
-  text('RADAR',0,0);
+  text('RECORD',0,0);
   noStroke();
   textSize(15)
   text('by:Shania Van Spyk',0,30);
