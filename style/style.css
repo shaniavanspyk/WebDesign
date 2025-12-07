@@ -109,21 +109,21 @@ font-family: 'Courier New', Courier, monospace;
   pointer-events: none;
   transition: 0.3s ease;
 
-  z-index: 1000; /* brings the popup to the front */
+  z-index: 1000; 
 
-  /* 🌙 Moonbow Cute Popup Styling */
-  width: 420px;             /* wider, more roomy */
+  
+  width: 420px;           
   max-width: 92%;
-  padding: 58px 62px;        /* extra breathing room */
-  border-radius: 20px;      /* soft & huggable */
-  background: rgba(89, 89, 108, 0.95);   /* twilight card */
-  backdrop-filter: blur(10px);           /* dreamy fog */
-  color: #e5dee7;
-  font-size: 1.05rem;       /* friendlier type scale */
+  padding: 58px 62px;       
+  border-radius: 20px;      
+  background: rgba(180, 255, 245, 0.35); 
+  backdrop-filter: blur(10px);           
+  color: #dee6e7;
+  font-size: 1.05rem;      
   line-height: 1.5;
   box-shadow:
-      0 0 25px rgba(200,180,255,0.35),
-      0 0 60px rgba(150,120,255,0.2),
+      0 0 25px rgba(180, 255, 245, 0.35),
+      0 0 60px rgba(120, 174, 255, 0.2),
       0 8px 20px rgba(0,0,0,0.4);
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ h3 {
 
 button {
   border-radius: 20px;    
-  background: rgba(174, 104, 66, 0.95);  
+  background:#8fafa7;  
   width: 100px;
   height: 30px;
   border: none;
