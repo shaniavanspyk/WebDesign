@@ -1,10 +1,11 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .header {
@@ -74,9 +75,18 @@ h1 {
 }
 
 .navbar-brand {
-  gap: 20px;
   position: absolute;
   top: 8px;
+  background-color: rgba(89, 89, 108);
+  transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.15);
+}
+
+.bg-dark {
+  background-color: rgba(89, 89, 108) !important;
 }
 
 header {
@@ -85,8 +95,85 @@ font-family: 'Courier New', Courier, monospace;
     padding: 26px;
     text-align: center;
     align-items: center;
-    background-color:   rgb(168, 87, 6);;
+    background-color:   rgb(168, 87, 6);
 }
+
+/* Popup is hidden at first */
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+
+  z-index: 1000; /* brings the popup to the front */
+
+  /* 🌙 Moonbow Cute Popup Styling */
+  width: 420px;             /* wider, more roomy */
+  max-width: 92%;
+  padding: 58px 62px;        /* extra breathing room */
+  border-radius: 20px;      /* soft & huggable */
+  background: rgba(89, 89, 108, 0.95);   /* twilight card */
+  backdrop-filter: blur(10px);           /* dreamy fog */
+  color: #e5dee7;
+  font-size: 1.05rem;       /* friendlier type scale */
+  line-height: 1.5;
+  box-shadow:
+      0 0 25px rgba(200,180,255,0.35),
+      0 0 60px rgba(150,120,255,0.2),
+      0 8px 20px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;                /* space between items */
+  text-align: center;       /* cleaner heading */
+}
+
+/* Popup becomes visible */
+#popup.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+#openPopup {
+  animation: pulse 3s ease-in-out infinite;
+  margin-bottom: 40px;
+}
+
+main h3,
+#openPopup {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;    
+  background: rgba(174, 104, 66, 0.95);  
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 10px, 15px;
+  color: #d2cece;
+  display: block;
+  margin: 0 auto;
+}
+
 .blog-prview {
 display: flex;
 flex-direction: row;
@@ -443,6 +530,45 @@ body {
   width: 98.2%;
   padding: 10px;
 }
+
+.parallax-banner-scroll {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* start position */
+  background-attachment: scroll; /* allow movement */
+  position: relative;
+  will-change: background-position;
+}
+
+
+.parallax-banner {
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* parallax */
+  position: relative;
+}
+
+.parallax-banner-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25); /* optional soft darkening */
+}
+
+.parallax-banner-content {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #faf7e8;
+  text-shadow: 0 0 10px #000;
+}
+
+
 
 @media (max-width: 600px) {
   /* Styles for mobile screens */

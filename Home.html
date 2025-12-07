@@ -8,55 +8,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<header>
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html">🪄</a>       
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="grid.html">Grid</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="flexbox.html">flexbox</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Blog.html">Blog</a>
-        </li> <!-- I added this entire list item to Bootstrap's default code. Add more if needed! -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="template.html">About</a></li>
-            <li><a class="dropdown-item" href="Readmore.html">Info</a></li>
-            <li><hr class="dropdown-divider"></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true"></a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Blog.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="flexbox.html">Photo projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="grid.html">Gallery</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="animation.html">Animation</a>
+      </li>
+    </ul>
     </div>
   </div>
-</nav>
+  </nav>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</header>
+
   </head>
 
 
-<body>
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,13 +49,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/Comp1.jpg" class="d-block w-100" alt="camera"> 
+      <img src="images/Still life drawing 1.jpg" class="d-block w-100" alt="camera"> 
     </div>
     <div class="carousel-item">
-      <img src="images/Comp2.jpg" class="d-block w-100" alt="horror">
+      <img src="images/Still life drawing2.jpg" class="d-block w-100" alt="horror">
     </div>
     <div class="carousel-item">
-      <img src="images/Comp3.jpg" class="d-block w-100" alt="cooking">
+      <img src="images/Still life 3.jpg" class="d-block w-100" alt="cooking">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -84,7 +68,25 @@
   </button>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+   
+  <h3>Join our list</h3>
+    <button id="openPopup">Sign Up</button>
+
+    <div id="popup">
+      <h4>Sign up to receive reminders and updates!</h4>
+
+      <input type="text" placeholder="First Name">
+      <input type="email" placeholder="Email Address">
+
+      <button id="sendForm">Send</button>
+      <button id="closePopup">Close</button>
+    </div>
+  
+  </main>
+      <script>
+      openPopup.onclick = () => popup.classList.add('open');
+      closePopup.onclick = () => popup.classList.remove('open');
+      </script>
 
 <footer class="footer">
   <div class="social-icons">
@@ -122,6 +124,24 @@
 </script>
 
 </footer>
+
+  <script>
+    let latestScroll = 0;
+    window.addEventListener('scroll', () => {
+      latestScroll = window.scrollY;
+    });
+    function parallaxLoop() {
+      const banners = document.querySelectorAll('.parallax-banner-scroll');
+
+      banners.forEach(banner => {
+        let offset = latestScroll * 0.3;
+        banner.style.backgroundPositionY = `${offset}px`;
+      });
+      requestAnimationFrame(parallaxLoop);
+    }
+    parallaxLoop();
+    </script>
+
 
 
 </html>
