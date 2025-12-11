@@ -19,7 +19,7 @@ function draw() {
   //customized shape for mouse
   noCursor();
   noStroke();
-  fill("#1C3103")
+  fill("#8fafa7")
   circle(mouseX,mouseY,10);
   
   //main graph

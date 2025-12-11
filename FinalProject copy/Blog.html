@@ -6,7 +6,85 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  background-color:#8fafa7;
+  cursor: pointer;
+  text-align: center;
+  margin-top: auto;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
        <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="Home.html">🪄</a>       
@@ -36,27 +114,214 @@
   </nav>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  </head>
-
-
-
+</head>
 <body>
+<!-- MAIN (Center website) -->
+<div class="main">
 
 
-<div class="container">
+<h2>PORTFOLIO</h2>
 
-  <h1>About Me</h1>
-  <img src="images/me1.jpg" alt="Notebook" style="width:100%;">
-  <div class="content">
-    <h1>Hi. I'm Shania Van Spyk</h1>
-    <p> I’m from Great Falls, Montana. I’m currently attending the University of Montana, where I’m majoring in Media Arts and earning certificates in Web Design and Graphic Design. I’ve always loved art and creativity, and my goal is to become a professional graphic designer. I also hope to sell my artwork on the side.
-When I’m not designing, I love spending time with my friends and family—they’re a big source of inspiration and support in my life. I’m excited to keep growing as an artist and to bring my ideas to life through design. This website will show work that I have made from drawings, paintings, designs, and photography.</p>
-  </div>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('B&WPhotos')"> B&W</button>
+  <button class="btn" onclick="filterSelection('Photos')"> Colored</button>
+  <button class="btn" onclick="filterSelection('Drawings')"> Drawings</button>
+  <button class="btn" onclick="filterSelection('Paintings')"> Paintings</button>
 </div>
 
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/B&W aligator.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Aligator</h4>
+      <p>Black & White Photography</p>
+    </div>
+    
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W horror photoshoot 2.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W flower sculpture.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/B&W horror photoshoot 3.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W horror photoshoot 5.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W horror photoshoot 6.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/B&W nature photo.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W photo landscape.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W potrait 3.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/B&W potrait.jpg" alt="B&WPhotos" style="width:100%">
+      
+      <p>Black & White Photography</p>
+    </div>
+    
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W potrait 2.jpg"B&WPhotos" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/B&W sidewalk shadows of tree.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/B&W Sun behind tree.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/bison B&W.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/Black and White Glass 1.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column B&WPhotos">
+    <div class="content">
+      <img src="images/Black and White Photo Basket.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/Black&White blur circles photo.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column B&WPhotos">
+    <div class="content">
+    <img src="images/Cooking 2 B&W.jpg" alt="B&WPhotos" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 </body>
+</html>
 
 <footer class="footer">
   <div class="social-icons">
