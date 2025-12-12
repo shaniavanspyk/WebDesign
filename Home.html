@@ -20,14 +20,11 @@
         <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Blog.html">About Me</a>
+        <a class="nav-link" href="Blog.html">Portfolio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="flexbox.html">Photo projects</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="grid.html">Gallery</a>
-      </li> 
       <li class="nav-item">
         <a class="nav-link" href="animation.html">Animation</a>
       </li>
@@ -37,38 +34,91 @@
   </nav>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body, html {
+  height: 100%;
+  
+}
 
+.parallax {
+  /* The image used */
+  background-image: url('Me3.1.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
   </head>
 
 
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<body>
+
+<div class="parallax"></div>
+<div class="container">
+  <img src="images/Me3.9.jpg" alt="Nature" style="width:100%;background-color: black;">
+  <div class="text-block">
+    <h4>Welcome</h4>
+    <p>I'm Shania Van Spyk</p>
   </div>
+</div>
+
+<div style="height:350px;background-color:rgb(255, 255, 255);font-size:36px;text-align: center;">
+I’m from Great Falls, Montana. I’m currently attending the University of Montana, where I’m majoring in Media Arts and earning certificates in Web Design and Graphic Design. I’ve always loved art and creativity, and my goal is to become a professional graphic designer. I also hope to sell my artwork on the side.
+When I’m not designing, I love spending time with my friends and family—they’re a big source of inspiration and support in my life. I’m excited to keep growing as an artist and to bring my ideas to life through design. This website will show work that I have made from drawings, paintings, designs, and photography.
+</div>
+
+<div class="parallax"></div>
+
+</body>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/Still life drawing 1.jpg" class="d-block w-100" alt="camera"> 
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/Comp3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/Comp2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="images/Still life drawing2.jpg" class="d-block w-100" alt="horror">
-    </div>
-    <div class="carousel-item">
-      <img src="images/Still life 3.jpg" class="d-block w-100" alt="cooking">
+      <img src="images/Comp1.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-   
   <h3>Join our list</h3>
     <button id="openPopup">Sign Up</button>
 
