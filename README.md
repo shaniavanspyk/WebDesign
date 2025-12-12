@@ -4,5 +4,3 @@ There are many things I’m proud of in my final project because it really shows
 In the future, I would like to add more to the homepage, such as contact information, links to my social media, and more to the “about me” section—to make the site feel more complete and personal, maybe like a timeline of me creating art.
 I can see myself using these skills in future school assignments and personal projects. Building the websites in this class has opened up more opportunities for me to showcase my creativity in new ways.
 
-
- <a href="Home.html" class="read-more">Home</a>
